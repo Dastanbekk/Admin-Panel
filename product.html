@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Product</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -16,40 +17,40 @@
               <h3>Dashboard <span>v.01</span></h3>
             </a>
             <div class="dashboard_links">
-              <a href="/" class="links">
+              <a href="/" class="links ">
                 <div class="links_item">
-                  <img src="./svg/links1.svg" alt="" />Dashboard
+                  <img src="./svg/links1.svg" alt="" /><span>Dashboard</span>
                 </div>
               </a>
               <a href="/product.html" class="links active_links">
                 <div href="/" class="links_item">
-                  <img src="./svg/links2.svg" alt="" />Product
+                  <img src="./svg/links2.svg" alt="" /><span>Product</span>
                 </div>
-                <img src="./svg/right.svg" alt="" />
+                <img class="array-right" src="./svg/right.svg" alt="" />
               </a>
               <div class="links">
                 <div class="links_item">
-                  <img src="./svg/links3.svg" alt="" />Customers
+                  <img src="./svg/links3.svg" alt="" /><span>Customers</span>
                 </div>
-                <img src="./svg/right.svg" alt="" />
+                <img class="array-right" src="./svg/right.svg" alt="" />
               </div>
               <div class="links">
                 <div class="links_item">
-                  <img src="./svg/links4.svg" alt="" />Income
+                  <img src="./svg/links4.svg" alt="" /><span>Income</span>
                 </div>
-                <img src="./svg/right.svg" alt="" />
+                <img class="array-right" src="./svg/right.svg" alt="" />
               </div>
               <div class="links">
                 <div class="links_item">
-                  <img src="./svg/links5.svg" alt="" />Promote
+                  <img src="./svg/links5.svg" alt="" /><span>Promote</span>
                 </div>
-                <img src="./svg/right.svg" alt="" />
+                <img class="array-right" src="./svg/right.svg" alt="" />
               </div>
               <div class="links">
                 <div class="links_item">
-                  <img src="./svg/links6.svg" alt="" />Help
+                  <img src="./svg/links6.svg" alt="" /><span>Help</span>
                 </div>
-                <img src="./svg/right.svg" alt="" />
+                <img class="array-right" src="./svg/right.svg" alt="" />
               </div>
             </div>
           </div>
@@ -61,11 +62,148 @@
                 <span>Project Manager</span>
               </h4>
             </div>
-            <img src="./svg/bottom.svg" alt="" />
+            <img class="array-right" src="./svg/bottom.svg" alt="" />
           </div>
         </div>
       </section>
-      <section class="content">Product Page</section>
+      <section class="products">
+        <div class="container">
+          <div class="products_in">
+            <div class="products_top">
+              <h3 class="products_title">
+                Products
+              </h3>
+      
+              <div class="products_sales">
+                <a href="#">Sales</a>
+                <a href="#">Discounts</a>
+              </div>
+            </div>
+            <div class="products_bottom">
+              <div class="products_dropdown">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    New Products
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">New products</a></li>
+                    <li><a class="dropdown-item" href="#">Old products</a></li>
+                    <li><a class="dropdown-item" href="#">Average products</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Clothes</a></li>
+                    <li><a class="dropdown-item" href="#">Shoes</a></li>
+                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="products_cards">
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/0c2fffea-65ab-4dd9-be9f-3b986e0ceac0.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Najot Ta'lim Ruchkasi</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/7ac3ccf1-0a9f-4f2f-aca3-3941918f94d0.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Najot Ta'lim Futbolkasi</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/50c4ac2c-98b2-41c1-af2b-be3663cf7266.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Osmondagi Bolalar</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/cf27c920-e2f6-4ce8-a74d-5ca7e9652106.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Powerbank</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/6c28012a-d1db-4b1e-927a-ac7c345c9c52.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Najot Ta'lim Xudisi</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/c74f876f-0b07-41a6-9962-dc0dd406c469.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Sumka</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/3c191f75-6396-4b80-82dc-6ffca40d034d.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Sichqoncha</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+                <div class="products_card">
+                  <div class="card_img">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-stlb7c" src="https://pub-7be1d45c4a744f86846c80e90df909eb.r2.dev/store/items/images/db204d9e-15ac-4031-8f73-744bfc092321.jpg" height="194">
+                  </div>
+                  <div class="card_infos">
+                    <h3>Quloqchin</h3>
+                  </div>
+                  <div class="card_btn">
+                    <button>Sotib olish</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
     </main>
+
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

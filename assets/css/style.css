@@ -105,6 +105,7 @@ a {
   margin-bottom: 20px;
   padding: 11px;
   border-radius: 8px;
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -136,7 +137,7 @@ a {
 
 @media (max-width: 1200px) {
   .dashboard {
-    width: 50px;
+    width: 70px;
     margin-left: 20px;
   }
   .dashboard_item h3 {
@@ -182,7 +183,11 @@ a {
     display: none;
   }
   .dashboard_links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     max-width: 600px;
+    background-color: #fff;
     width: 100%;
     display: flex;
     align-items: center;
@@ -513,6 +518,81 @@ a {
   .form {
     display: none;
   }
+}
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  padding: 36px 0;
+}
+.products_sales {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+.products_sales a {
+  text-decoration: none;
+  color: #292d32;
+  border-bottom: 2px solid transparent;
+}
+.products_sales a:hover {
+  color: #5932ea;
+  border-bottom: 2px solid #5932ea;
+}
+.products_in {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.products_bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.products_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.products_card {
+  overflow: hidden;
+  max-width: 220px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.products .card_img {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+}
+.products .card_img img {
+  width: 100%;
+  height: 194px;
+}
+.products .card_infos {
+  padding: 10px;
+}
+.products .card_infos h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.products .card_btn button {
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: #5932ea;
+  color: #FFF;
+  padding: 8px 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.products .card_btn button:hover {
+  border: 1px solid #5932ea;
+  color: #5932ea;
+  background-color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
